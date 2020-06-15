@@ -6,8 +6,8 @@ module.exports = {
         'style-resources-loader': {
             'preProcessor': 'scss',
             'patterns': [
-                path.resolve(__dirname, './src/assets/scss/variables.scss'),
-                // path.resolve(__dirname, 'node_modules/bootstrap/scss/bootstrap')
+                path.resolve(__dirname, './src/assets/scss/style.scss'),
+                // path.resolve(__dirname, './src/assets/scss/fonts.css')
                 // path.resolve(__dirname, 'node_modules/bootstrap-vue/src/index.scss'),
             ]
         }

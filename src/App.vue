@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <div class="container">
-
+          <Navbar/>
       </div>
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
@@ -9,11 +9,12 @@
 </template>
 
 <script>
-// import HelloWorld from "./components/HelloWorld.vue";
+import Navbar from "./components/Navbar";
 
 export default {
   name: "App",
   components: {
+      Navbar
     // HelloWorld
   }
 };
@@ -23,6 +24,8 @@ export default {
 @import '~bootstrap';
 @import '~bootstrap-vue';
 @import '~pixel-glass/styles.css';
+@import './assets/scss/fonts.css';
+
 HTML {
 background-repeat: no-repeat;
 background-position:  50% 0;
@@ -45,12 +48,13 @@ HTML {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+//   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-  background-color: $this_red_color;
+//   margin-top: 60px;
+//   background-color: $this_red_color;
+  font-family: "DINPro-Medium";
 }
 </style>
