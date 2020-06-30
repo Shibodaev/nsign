@@ -1,28 +1,23 @@
 <template>
   <div id="app">
-      <div class="container">
-          <Navbar/>
-      </div>
-    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+
   </div>
 </template>
 
 <script>
-import Navbar from "./components/Navbar";
 
 export default {
   name: "App",
   components: {
-      Navbar
-    // HelloWorld
+    
+    
   }
 };
 </script>
 
 <style lang="scss" >
-@import '~bootstrap';
-@import '~bootstrap-vue';
+// @import '~bootstrap';
+// @import '~bootstrap-vue';
 @import '~pixel-glass/styles.css';
 @import './assets/scss/fonts.css';
 

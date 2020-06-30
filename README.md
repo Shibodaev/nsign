@@ -216,3 +216,4 @@ node createBlock.js demo-block pug js # создаст папку блока, de
 
 Ставьте звезду в верхнем правом углу и/или [угостите меня кофе](https://money.yandex.ru/to/41001252765094), переведя сколь угодно символическую сумму.
 # nsign
+# testVueSuit
